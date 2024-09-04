@@ -1,0 +1,22 @@
+.Header {
+    width: 100%; /* Full width */
+    height: 100px; /* Fixed height */
+    background-color: rgb(139, 0, 0);
+    position: fixed; /* Fix the element to the top */
+    top: 0; /* Align to the top of the page */
+    left: 0; /* Align to the left edge of the page */
+    text-align: center; /* Center text horizontally */
+}
+
+.Title {
+    color: white; /* Text color */
+    font-size: 35px; /* Adjust font size */
+    text-align: center; /* Center text if needed */
+    transform: translate(0%, 80%);
+}
+
+.Main {
+    
+    text-align: left; 
+    height: 50px;
+} 
