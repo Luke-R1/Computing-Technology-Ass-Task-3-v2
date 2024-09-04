@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menai High Event Manager</title>
+</head>
+<body>
+    <div class="Header">
+    <div class="Title">Menai High School Event Planner</div>
+    
+    <div class="Main">
+        <form action="">
+            
+            <label for="first">Username:</label>
+            </translateY><input type="text" id="first" name="first" placeholder="Enter your Username" required>
+            <form action=""> <br> <br>
+                <label for="first"> Password:</label>
+                <input type="text" id="first" name="first" placeholder="Enter your Password" required>
+
+    
+</body>
+</html>
+
+
+
+
+CSS
+
+.Header {
+    width: 100%; /* Full width */
+    height: 100px; /* Fixed height */
+    background-color: rgb(139, 0, 0);
+    position: fixed; /* Fix the element to the top */
+    top: 0; /* Align to the top of the page */
+    left: 0; /* Align to the left edge of the page */
+    text-align: center; /* Center text horizontally */
+}
+
+.Title {
+    color: white; /* Text color */
+    font-size: 35px; /* Adjust font size */
+    text-align: center; /* Center text if needed */
+    transform: translate(0%, 80%);
+}
+
+.Main {
+    
+    text-align: left; 
+    height: 50px;
+} 
